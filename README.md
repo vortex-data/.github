@@ -1,13 +1,6 @@
 🌪️ Vortex
 =========
 
-[![Build Status](https://github.com/vortex-data/vortex/actions/workflows/ci.yml/badge.svg)](https://github.com/vortex-data/vortex/actions)
-[![Documentation](https://docs.rs/vortex-array/badge.svg)](https://docs.vortex.dev)
-[![CodSpeed Badge](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/vortex-data/vortex)
-[![Crates.io](https://img.shields.io/crates/v/vortex-array.svg)](https://crates.io/crates/vortex-array)
-[![PyPI - Version](https://img.shields.io/pypi/v/vortex-array)](https://pypi.org/project/vortex-array/)
-[![Maven - Version](https://img.shields.io/maven-central/v/dev.vortex/vortex-spark)](https://central.sonatype.com/artifact/dev.vortex/vortex-spark)
-
 📚 [Documentation](https://docs.vortex.dev/) | 📊 [Performance Benchmarks](https://bench.vortex.dev)
 
 ## Overview
@@ -23,28 +16,6 @@ Vortex is a next-generation columnar file format and toolkit designed for high-p
     - Modeled after Apache DataFusion's extensible approach
     - Pluggable encoding system
     - Zero-copy compatibility with Apache Arrow
-
-## Key Features
-
-### Core Capabilities
-
-- ✨ **Logical Types** - Clean separation between logical schema and physical layout
-- 🔄 **Zero-Copy Arrow Integration** - Seamless conversion to/from Apache Arrow arrays
-- 🧩 **Extensible Encodings** - Pluggable physical layouts with built-in optimizations
-- 📦 **Cascading Compression** - Support for nested encoding schemes
-- 🚀 **High-Performance Computing** - Optimized compute kernels for encoded data
-- 📊 **Rich Statistics** - Lazy-loaded summary statistics for optimization
-
-### Technical Architecture
-
-#### Logical vs Physical Design
-
-Vortex strictly separates logical and physical concerns:
-
-- **Logical Layer**: Defines data types and schema
-- **Physical Layer**: Handles encoding and storage implementation
-- **Built-in Encodings**: Compatible with Apache Arrow's memory format
-- **Extension Encodings**: Optimized compression schemes (RLE, dictionary, etc.)
 
 ## Project Information
 
