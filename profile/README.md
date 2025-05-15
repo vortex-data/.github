@@ -27,7 +27,7 @@ Licensed under the Apache License, Version 2.0
 
 Vortex is an independent open-source project and not controlled by any single company. The Vortex Project
 is a sub-project of the Linux Foundation Projects. The governance model is documented in 
-[CONTRIBUTING.md](CONTRIBUTING.md) and is subject to the terms of the [Technical Charter](https://vortex.dev/charter.pdf).
+[CONTRIBUTING.md](https://github.com/vortex-data/vortex/CONTRIBUTING.md) and is subject to the terms of the [Technical Charter](https://vortex.dev/charter.pdf).
 
 ### Contributing
 
